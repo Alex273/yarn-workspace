@@ -1,0 +1,17 @@
+{
+  "name": "yarn-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monorepo"
+  ],
+  "author": "alex",
+  "license": "ISC",
+  "private": true,
+  "workspaces": ["app1", "app2"]
+}
+
