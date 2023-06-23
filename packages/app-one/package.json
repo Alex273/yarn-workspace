@@ -1,5 +1,5 @@
 {
-  "name": "app1",
+  "name": "@monorepo/app1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,9 @@
   "author": "alex",
   "license": "ISC",
   "dependencies": {
-    "cross-env": "5.0.5"
+    "cross-env": "5.0.5",
+    "@monorepo/package1": "1.0.0",
+    "@monorepo/package2": "1.0.0"
   }
 }
 
